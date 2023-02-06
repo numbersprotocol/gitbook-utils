@@ -13,6 +13,7 @@ $ ./capture-api-verify-token.sh
 $ cp .env.example .env
 # update your Capture token in .env
 
+# update your asset info in nit-api-commit.sh before running it
 $ ./nit-api-commit.sh
 $ ./nit-api-get-asset-commits.sh
 ```
