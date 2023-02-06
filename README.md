@@ -9,6 +9,10 @@ The following scripts are included in the [Getting Started](https://docs.numbers
 ```sh
 $ ./capture-api-get-token-by-email.sh
 $ ./capture-api-verify-token.sh
+
+$ cp .env.example .env
+# update your Capture token in .env
+
 $ ./nit-api-commit.sh
 $ ./nit-api-get-asset-commits.sh
 ```
