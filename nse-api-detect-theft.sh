@@ -9,7 +9,7 @@ generate_post_data() {
 
     cat <<EOF
 {
-   "fileURL": "${assetUrl}",
+   "fileURL": "${_assetUrl}",
    "threshold": 0.12,
    "excludedAssets": ["bafybeid32me6xuuamahne2vs4ks57y3wohag4dt65iwhfzpqtpw7y6f75i"],
    "excludedContracts": ["0xb90c5b95d7c29d1448ec079dffedc5905fb77711"]
