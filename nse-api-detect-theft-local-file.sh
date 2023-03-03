@@ -4,7 +4,7 @@ source utils.sh
 
 setCaptureToken
 
-read -p "Asset URL: " assetFilepath
+read -p "Asset local filepath: " assetFilepath
 
 echo -e "\n\nDetecting theft for asset ${assetFilepath} ...\n"
 
